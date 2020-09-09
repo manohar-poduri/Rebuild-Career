@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".employe.MessageEmployer">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarView"
+        android:background="@color/colorAccent"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dear"
+            android:text="Dear "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personName"
+            android:text="PersonName"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMessage"
+            android:text="Please drop an email to rebuildcareer@gmail.com with following details to get information keywords, experience, location, expected salary. We will send you all the details of registered applicants.
+    This is to protect the interest of applicants."
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:autoLink="email"
+            android:textSize="25sp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

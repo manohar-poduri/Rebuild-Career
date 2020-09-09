@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "588541449574",
+    "firebase_url": "https://jseapp-bfbf4.firebaseio.com",
+    "project_id": "jseapp-bfbf4",
+    "storage_bucket": "jseapp-bfbf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588541449574:android:73c3c27ad8d6b3dfb664a7",
+        "android_client_info": {
+          "package_name": "com.rebuildcareer.jseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588541449574-9q2eknd7ipf6nlfnrn78ch781es32c0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKh65qzshQp3_2wXO42JyaLOYFvZqL6BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588541449574-9q2eknd7ipf6nlfnrn78ch781es32c0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

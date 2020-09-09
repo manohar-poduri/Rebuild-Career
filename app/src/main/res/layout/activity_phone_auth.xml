@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jobSeeker.PhoneAuthActivity"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarView"
+        android:background="@color/colorAccent"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/custom1"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtOTP"
+            android:hint="OTP"
+            android:background="@drawable/custom1"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_below="@id/edtOTP"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            />
+
+       <!-- <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVerifyOTP"
+            android:text="Verify OTP"
+            android:layout_margin="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom"/>-->
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/scroll_view"
+            android:layout_margin="20dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear_layout"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="itemClicked"
+                    />
+                <TextView
+                    android:id="@+id/termsAndConditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <Button
+            android:padding="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOpenApplication"
+            android:text="Open Application"
+            android:textColor="#fff"
+            android:background="@drawable/custom2"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

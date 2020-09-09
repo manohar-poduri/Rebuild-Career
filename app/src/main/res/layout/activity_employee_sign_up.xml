@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employe.EmployeeSignUp"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarView"
+        android:background="@color/colorAccent"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/custom1"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmployeeEmail"
+            android:hint="Email Address"
+            android:background="@drawable/custom1"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmployerPhone"
+            android:hint="Phonenumber with +91"
+            android:background="@drawable/custom1"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/employerProgressBar"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEmployerOTP"
+            android:text="Get OTP  and SignUp"
+            android:background="@drawable/custom"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:layout_margin="5dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
